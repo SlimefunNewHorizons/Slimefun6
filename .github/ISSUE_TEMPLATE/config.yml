@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: DrakesCraft Builds (Latest Verified JARs)
+    url: https://pack.drakescraft.cl/builds/
+    about: Download the latest ABI-verified 26.x builds for Slimefun 6 and the DrakesCraft ecosystem.
   - name: Code of Conduct
-    url: https://github.com/Slimefun/Slimefun4/blob/master/.github/CODE_OF_CONDUCT.md
-    about: Please read this before posting
-  - name: Bug Report Guidelines
-    url: https://github.com/Slimefun/Slimefun4/wiki/How-to-report-bugs
-    about: Guidelines on how to make good Bug reports
-  - name: Discord Server (for Questions and Suggestions)
-    url: https://discord.gg/slimefun
-    about: Please ask and answer questions here.
+    url: https://github.com/SlimefunNewHorizons/Slimefun6/blob/main/CODE_OF_CONDUCT.md
+    about: Please read our community standards before posting.
+  - name: DrakesCraft & SlimefunNewHorizons Discord
+    url: https://discord.gg/rv3vtXZTk7
+    about: Ask questions, share addon compatibility reports, and follow Season 2 announcements.

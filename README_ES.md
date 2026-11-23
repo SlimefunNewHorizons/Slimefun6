@@ -1,10 +1,22 @@
+<div align="center">
+
+<img src="banner.svg" alt="Banner de Slimefun 6" width="920" />
+
 # Slimefun 6 — Core de DrakesCraft
 
-**Un core de Slimefun mantenido para Minecraft 1.21 → 26.2, hecho para correr con la mayor coleccion de addons de la comunidad que logramos cargar juntos.**
+**Un core de Slimefun mantenido para Minecraft 1.21 → 26.2, diseñado para correr junto a la mayor colección de addons de la comunidad en producción.**
 
-> 🎮 `mc.drakescraft.cl` (Java y Bedrock) · 💬 [Discord](https://discord.gg/rv3vtXZTk7) · 🌐 [web.drakescraft.cl](https://web.drakescraft.cl)
+<a href="https://github.com/SlimefunNewHorizons/Slimefun6/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/SlimefunNewHorizons/Slimefun6/actions/workflows/ci.yml/badge.svg?branch=main"></a>
+<a href="https://pack.drakescraft.cl/builds/#Slimefun4-Drake"><img alt="DrakesCraft Builds" src="https://img.shields.io/badge/Builds-pack.drakescraft.cl%2Fbuilds-8b5cf6?style=flat"></a>
+<img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-blue">
+<img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-1.21%20%E2%86%92%2026.2-22c55e">
+<img alt="Java" src="https://img.shields.io/badge/Java-21%2B%20%28Prod%20Java%2025%29-f59e0b">
 
-Version en ingles (completa, con compilacion y Maven): [README.md](README.md).
+**[🇬🇧 English README](README.md)** · **[📦 Builds Verificados](https://pack.drakescraft.cl/builds/)** · **[🌐 Web y Guías](https://web.drakescraft.cl)** · **[💬 Discord](https://discord.gg/rv3vtXZTk7)**
+
+</div>
+
+> 🎮 `mc.drakescraft.cl` (Java y Bedrock, puerto `25565`) · 📦 [Builds ABI-Gate](https://pack.drakescraft.cl/builds/) · 💬 [Discord](https://discord.gg/rv3vtXZTk7) · 🌐 [web.drakescraft.cl](https://web.drakescraft.cl)
 
 ## Que es
 

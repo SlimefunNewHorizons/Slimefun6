@@ -1,13 +1,4 @@
 
-> [!IMPORTANT]
-> **dough is SHADED inside Slimefun, not shipped as a standalone jar.** The source
-> lives in the `dough-core` repo, but Slimefun consumes it as a Maven dependency
-> (`com.github.drakescraft_labs:dough-core`) and relocates it when packaging to
-> `com.github.drakescraft_labs.slimefun4.libraries.dough`. **There is no
-> `dough.jar` in production.** Therefore, any change to `dough-core` requires:
-> `mvn install` in dough-core -> **rebuild Slimefun** (and every plugin that
-> shades it) -> upload those jars. Uploading dough on its own has no effect.
-
 <div align="center">
 
 <img src="banner.svg" alt="Slimefun 6 banner" width="920" />
@@ -17,21 +8,29 @@
 **A maintained Slimefun core for Minecraft 1.21 → 26.2, built to run with the largest community addon collection we could load together.**
 
 <a href="https://github.com/SlimefunNewHorizons/Slimefun6/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/SlimefunNewHorizons/Slimefun6/actions/workflows/ci.yml/badge.svg?branch=main"></a>
+<a href="https://pack.drakescraft.cl/builds/#Slimefun4-Drake"><img alt="DrakesCraft Builds" src="https://img.shields.io/badge/Builds-pack.drakescraft.cl%2Fbuilds-8b5cf6?style=flat"></a>
 <a href="https://github.com/SlimefunNewHorizons/Slimefun6/releases"><img alt="Release" src="https://img.shields.io/github/v/release/SlimefunNewHorizons/Slimefun6?include_prereleases"></a>
 <img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-blue">
-<img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-1.21%20%E2%86%92%2026.2-green">
+<img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-1.21%20%E2%86%92%2026.2-22c55e">
+<img alt="Java" src="https://img.shields.io/badge/Java-21%2B%20%28Prod%20Java%2025%29-f59e0b">
+
+**[🇪🇸 Leer en Español](README_ES.md)** · **[📦 Verified Builds](https://pack.drakescraft.cl/builds/)** · **[🌐 Web & Guide](https://web.drakescraft.cl)** · **[💬 Discord](https://discord.gg/rv3vtXZTk7)**
 
 </div>
 
 > ### 🏰 Play it live
 >
-> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java & Bedrock)*
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java & Bedrock — Port `25565`)*
+> * 📦 **ABI-Verified Builds**: [pack.drakescraft.cl/builds](https://pack.drakescraft.cl/builds/)
 > * 💬 **Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
 > * 🌐 **Web & Guide**: [web.drakescraft.cl](https://web.drakescraft.cl)
 >
-> *This core runs in production on DrakesCraft Season 2 together with the 110 Slimefun addons listed below.*
+> *This core runs in production on DrakesCraft Season 2 together with 110+ Slimefun addons and 9 consolidated StarSuites.*
 
 ---
+
+> [!IMPORTANT]
+> **Packaging note (`dough-core`):** `dough` is **shaded** inside Slimefun (`com.github.drakescraft_labs:dough-core` relocated to `com.github.drakescraft_labs.slimefun4.libraries.dough`), **not** shipped as a standalone `dough.jar`. Any change in `dough-core` requires `mvn install` in `dough-core` followed by rebuilding Slimefun and any plugin that shades it.
 
 ## What this is
 

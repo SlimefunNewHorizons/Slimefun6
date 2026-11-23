@@ -1,0 +1,37 @@
+name: "Feature Request / Addon Compatibility"
+description: "Propose a new feature, 26.x compatibility enhancement, or addon integration for Slimefun 6."
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve **Slimefun 6 (SlimefunNewHorizons)**!
+        Please describe the use case clearly so maintainers can evaluate impact and compatibility across Minecraft 1.21 -> 26.2.
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "What problem does this solve or what capability would you like to add?"
+      placeholder: "Describe the feature or addon compatibility improvement..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposed Behavior / Technical Notes"
+      description: "Include API details, Paper/Purpur version, or affected Slimefun addons if applicable."
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "Target Scope"
+      options:
+        - "Core API / Gameplay"
+        - "Minecraft 26.x / Paper Compatibility"
+        - "BlockStorage / Performance / Rust FFI"
+        - "Community Addon Compatibility"
+        - "Documentation / CI"
+    validations:
+      required: true
