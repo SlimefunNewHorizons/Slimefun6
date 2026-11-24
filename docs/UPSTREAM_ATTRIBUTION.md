@@ -1,26 +1,11 @@
-# Atribucion a los autores originales
+# Upstream attribution and modifications
 
-**Slimefun4-Drake** es un port mantenido por DrakesCraft Labs de un addon creado por otras personas.
-Se publica al amparo de su licencia **GPL-3.0-only**, que permite redistribuir y modificar siempre que
-se conserve el credito y la propia licencia.
+Slimefun 6 is an independent continuation based on [Slimefun 4](https://github.com/Slimefun/Slimefun4), originally created by TheBusyBiscuit and developed by its maintainers and contributors. The upstream authors retain credit for their work; this project does not claim to have created Slimefun.
 
-## Autoria original
+- Original source and contributor history: [Slimefun/Slimefun4](https://github.com/Slimefun/Slimefun4).
+- This continuation: [SlimefunNewHorizons/Slimefun6](https://github.com/SlimefunNewHorizons/Slimefun6).
+- Previous Drake line: [`legacy/slimefun4-drake-1.21`](https://github.com/SlimefunNewHorizons/Slimefun6/tree/legacy/slimefun4-drake-1.21).
 
-- The Slimefun 4 Community
+The Drake maintainers adapted the core for newer Minecraft, Paper/Purpur and Java versions, and added compatibility, performance and bug fixes. The [commit history](https://github.com/SlimefunNewHorizons/Slimefun6/commits/main/) and [changelog](../CHANGELOG.md) document changes and dates; the separate legacy branch preserves its own history. Existing copyright and license notices in the source must be retained.
 
-El diseno, las mecanicas y la mayor parte del codigo son suyos. DrakesCraft Labs no reclama
-autoria sobre ese trabajo.
-
-## Que ha hecho DrakesCraft Labs
-
-- Portar el addon a Paper/Purpur 1.21.11 y a Java 21.
-- Adaptarlo al fork de Slimefun que usa el servidor.
-- Traducir al espanol los textos que ve el jugador.
-- Corregir fallos y ajustar el balance para DrakesCraft.
-
-Si eres autor original y quieres que se retire esta publicacion, abre una incidencia en el
-repositorio y se retira.
-
-## Licencia
-
-GPL-3.0-only. El texto completo esta en el fichero LICENSE de este repositorio.
+The core is distributed under the GNU General Public License version 3; see [LICENSE](../LICENSE). Addons are separate projects: their own authors, upstream repositories and licenses must be checked individually. Loading or porting an addon does not imply that its original authors released it as stable, approved this fork, or endorsed DrakesCraft.

@@ -36,6 +36,8 @@
 
 This repository is the `Slimefun/Slimefun4` fork maintained by [SlimefunNewHorizons](https://github.com/SlimefunNewHorizons). It carries the core we run in production, ported from the original code base, plus the compatibility work needed so a very large number of community addons load together on current Minecraft. The original project is credited in [`docs/UPSTREAM_ATTRIBUTION.md`](docs/UPSTREAM_ATTRIBUTION.md) and the code stays under GPL-3.0.
 
+> **Addon status and attribution:** An addon appearing in the inventory below is not a stability guarantee or an official release. Each addon has its own authors, source and license; some ports may be incomplete or experimental. Review its repository and test it before production use.
+
 The history of the previous standalone repository (`Slimefun4-Drake`) is kept on the branch `legacy/slimefun4-drake-1.21`. Our history is not a descendant of upstream's, so it cannot be merged into it; upstream is tracked on `experimental` for reference.
 
 Upstream development ended: in its farewell announcement (Slimefun Discord, `#announcements`) the original team said Slimefun 1.21 is its last official build, that the GitHub repository will be archived at the end of the year, and that anyone who wants to continue Slimefun "in spirit or by creating their own fork" is welcome. Slimefun 6 is our continuation of it, with thanks to TheBusyBiscuit, Walshy and every contributor who built it.
